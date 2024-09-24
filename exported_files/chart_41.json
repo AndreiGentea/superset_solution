@@ -1,0 +1,85 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851433.4011,
+    "changed_on_utc": "2024-09-24T08:50:51.433401+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "COVID Vaccine Dashboard",
+            "id": 6
+        }
+    ],
+    "datasource_id": 8,
+    "datasource_name_text": "public.covid_vaccines",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=8",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/41",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "color_picker": {
+            "a": 1,
+            "b": 135,
+            "g": 122,
+            "r": 0
+        },
+        "country_fieldtype": "name",
+        "datasource": "8__table",
+        "entity": "country_name",
+        "linear_color_scheme": "schemeYlOrBr",
+        "max_bubble_size": "25",
+        "metric": "count",
+        "row_limit": 10000,
+        "secondary_metric": {
+            "aggregate": "COUNT",
+            "column": {
+                "column_name": "country_name",
+                "description": null,
+                "expression": null,
+                "filterable": true,
+                "groupby": true,
+                "id": 583,
+                "is_dttm": false,
+                "python_date_format": null,
+                "type": "TEXT",
+                "verbose_name": null
+            },
+            "expressionType": "SIMPLE",
+            "hasCustomLabel": false,
+            "isNew": false,
+            "label": "COUNT(Country_Name)",
+            "optionName": "metric_i8otphezfu_5urmjjs7c1",
+            "sqlExpression": null
+        },
+        "show_bubbles": true,
+        "slice_id": 41,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "world_map"
+    },
+    "id": 41,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"country_fieldtype\": \"name\", \"datasource\": \"14__table\", \"entity\": \"country_name\", \"linear_color_scheme\": \"schemeYlOrBr\", \"max_bubble_size\": \"25\", \"metric\": \"count\", \"row_limit\": 10000, \"secondary_metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"country_name\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 583, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"TEXT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(Country_Name)\", \"optionName\": \"metric_i8otphezfu_5urmjjs7c1\", \"sqlExpression\": null}, \"show_bubbles\": true, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"world_map\", \"annotation_layers\": []}",
+    "slice_name": "Vaccine Candidates per Country",
+    "slice_url": "/explore/?slice_id=41&form_data=%7B%22slice_id%22%3A%2041%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "covid_vaccines"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/41/thumbnail/611807a490ff32f95db4076eec6f56da/",
+    "url": "/explore/?slice_id=41",
+    "viz_type": "world_map"
+}

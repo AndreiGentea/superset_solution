@@ -1,0 +1,21 @@
+{
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_utc": "2024-09-24T08:49:48.335690+0000",
+    "database": {
+        "database_name": "examples",
+        "id": 1
+    },
+    "datasource_type": "table",
+    "default_endpoint": null,
+    "description": null,
+    "explore_url": "/explore/?datasource_type=table&datasource_id=16",
+    "extra": null,
+    "id": 16,
+    "kind": "physical",
+    "owners": [],
+    "schema": "public",
+    "sql": "",
+    "table_name": "exported_stats"
+}

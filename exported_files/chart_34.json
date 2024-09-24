@@ -1,0 +1,80 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167781281.51,
+    "changed_on_utc": "2024-09-24T08:49:41.281510+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "deck.gl Demo",
+            "id": 4
+        }
+    ],
+    "datasource_id": 3,
+    "datasource_name_text": "public.long_lat",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=3",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/34",
+    "form_data": {
+        "color_picker": {
+            "a": 1,
+            "b": 0,
+            "g": 255,
+            "r": 14
+        },
+        "datasource": "3__table",
+        "extruded": true,
+        "granularity_sqla": null,
+        "grid_size": 40,
+        "groupby": [],
+        "mapbox_style": "mapbox://styles/mapbox/streets-v9",
+        "point_radius": "Auto",
+        "point_radius_fixed": {
+            "type": "fix",
+            "value": 2000
+        },
+        "point_radius_unit": "Pixels",
+        "row_limit": 5000,
+        "size": "count",
+        "slice_id": 34,
+        "spatial": {
+            "latCol": "LAT",
+            "lonCol": "LON",
+            "type": "latlong"
+        },
+        "time_grain_sqla": null,
+        "time_range": "No filter",
+        "viewport": {
+            "bearing": -2.3984797349335167,
+            "latitude": 37.789795085160335,
+            "longitude": -122.40632230075536,
+            "pitch": 54.08961642447763,
+            "zoom": 13.835465702403654
+        },
+        "viz_type": "deck_hex"
+    },
+    "id": 34,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"color_picker\": {\n        \"a\": 1,\n        \"b\": 0,\n        \"g\": 255,\n        \"r\": 14\n    },\n    \"datasource\": \"5__table\",\n    \"extruded\": true,\n    \"granularity_sqla\": null,\n    \"grid_size\": 40,\n    \"groupby\": [],\n    \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\",\n    \"point_radius\": \"Auto\",\n    \"point_radius_fixed\": {\n        \"type\": \"fix\",\n        \"value\": 2000\n    },\n    \"point_radius_unit\": \"Pixels\",\n    \"row_limit\": 5000,\n    \"size\": \"count\",\n    \"spatial\": {\n        \"latCol\": \"LAT\",\n        \"lonCol\": \"LON\",\n        \"type\": \"latlong\"\n    },\n    \"time_grain_sqla\": null,\n    \"time_range\": \"No filter\",\n    \"viewport\": {\n        \"bearing\": -2.3984797349335167,\n        \"latitude\": 37.789795085160335,\n        \"longitude\": -122.40632230075536,\n        \"pitch\": 54.08961642447763,\n        \"zoom\": 13.835465702403654\n    },\n    \"viz_type\": \"deck_hex\"\n}",
+    "slice_name": "Deck.gl Hexagons",
+    "slice_url": "/explore/?slice_id=34&form_data=%7B%22slice_id%22%3A%2034%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "long_lat"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/34/thumbnail/8a077b97420d621c47c2ae6225417a6b/",
+    "url": "/explore/?slice_id=34",
+    "viz_type": "deck_hex"
+}

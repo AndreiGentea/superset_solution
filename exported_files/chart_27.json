@@ -1,0 +1,73 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167754310.124,
+    "changed_on_utc": "2024-09-24T08:49:14.310124+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [],
+    "datasource_id": 2,
+    "datasource_name_text": "public.birth_names",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=2",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/27",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "datasource": "2__table",
+        "granularity_sqla": "ds",
+        "groupby": [
+            "name"
+        ],
+        "limit": "25",
+        "markup_type": "markdown",
+        "metrics": [
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "num",
+                    "type": "BIGINT"
+                },
+                "expressionType": "SIMPLE",
+                "label": "Births",
+                "optionName": "metric_11"
+            }
+        ],
+        "row_limit": 50,
+        "slice_id": 27,
+        "time_range": "100 years ago : now",
+        "timeseries_limit_metric": {
+            "aggregate": "SUM",
+            "column": {
+                "column_name": "num_california",
+                "expression": "CASE WHEN state = 'CA' THEN num ELSE 0 END"
+            },
+            "expressionType": "SIMPLE",
+            "label": "SUM(num_california)"
+        },
+        "viz_type": "table"
+    },
+    "id": 27,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"granularity_sqla\": \"ds\",\n    \"groupby\": [\n        \"name\"\n    ],\n    \"limit\": \"25\",\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        {\n            \"aggregate\": \"SUM\",\n            \"column\": {\n                \"column_name\": \"num\",\n                \"type\": \"BIGINT\"\n            },\n            \"expressionType\": \"SIMPLE\",\n            \"label\": \"Births\",\n            \"optionName\": \"metric_11\"\n        }\n    ],\n    \"row_limit\": 50,\n    \"time_range\": \"100 years ago : now\",\n    \"timeseries_limit_metric\": {\n        \"aggregate\": \"SUM\",\n        \"column\": {\n            \"column_name\": \"num_california\",\n            \"expression\": \"CASE WHEN state = 'CA' THEN num ELSE 0 END\"\n        },\n        \"expressionType\": \"SIMPLE\",\n        \"label\": \"SUM(num_california)\"\n    },\n    \"viz_type\": \"table\"\n}",
+    "slice_name": "Names Sorted by Num in California",
+    "slice_url": "/explore/?slice_id=27&form_data=%7B%22slice_id%22%3A%2027%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "birth_names"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/27/thumbnail/d09d94a865e57aec9469055b7cf77cce/",
+    "url": "/explore/?slice_id=27",
+    "viz_type": "table"
+}

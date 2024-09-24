@@ -1,0 +1,86 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851633.033,
+    "changed_on_utc": "2024-09-24T08:50:51.633033+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "FCC New Coder Survey 2018",
+            "id": 10
+        }
+    ],
+    "datasource_id": 21,
+    "datasource_name_text": "public.FCC 2018 Survey",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=21",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/86",
+    "form_data": {
+        "adhoc_filters": [
+            {
+                "clause": "WHERE",
+                "comparator": "Currently A Developer",
+                "expressionType": "SIMPLE",
+                "filterOptionName": "filter_fvi0jg9aii_2lekqrhy7qk",
+                "isExtra": false,
+                "isNew": false,
+                "operator": "==",
+                "sqlExpression": null,
+                "subject": "developer_type"
+            },
+            {
+                "clause": "WHERE",
+                "comparator": "100000",
+                "expressionType": "SIMPLE",
+                "filterOptionName": "filter_khdc3iypzjg_3g6h02b4f2p",
+                "isExtra": false,
+                "isNew": false,
+                "operator": "<=",
+                "sqlExpression": null,
+                "subject": "last_yr_income"
+            }
+        ],
+        "all_columns_x": [
+            "last_yr_income"
+        ],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "datasource": "21__table",
+        "granularity_sqla": "time_start",
+        "groupby": [],
+        "label_colors": {},
+        "link_length": "10",
+        "queryFields": {
+            "groupby": "groupby"
+        },
+        "row_limit": null,
+        "slice_id": 86,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "histogram"
+    },
+    "id": 86,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Currently A Developer\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_fvi0jg9aii_2lekqrhy7qk\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"developer_type\"}, {\"clause\": \"WHERE\", \"comparator\": \"100000\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_khdc3iypzjg_3g6h02b4f2p\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<=\", \"sqlExpression\": null, \"subject\": \"last_yr_income\"}], \"all_columns_x\": [\"last_yr_income\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"42__table\", \"granularity_sqla\": \"time_start\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"10\", \"queryFields\": {\"groupby\": \"groupby\"}, \"row_limit\": null, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"histogram\", \"annotation_layers\": []}",
+    "slice_name": "Last Year Income Distribution",
+    "slice_url": "/explore/?slice_id=86&form_data=%7B%22slice_id%22%3A%2086%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "FCC 2018 Survey"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/86/thumbnail/f8cd164fac0d9520aabc5b32469913c7/",
+    "url": "/explore/?slice_id=86",
+    "viz_type": "histogram"
+}

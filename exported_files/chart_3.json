@@ -1,0 +1,64 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167741075.198,
+    "changed_on_utc": "2024-09-24T08:49:01.075198+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "World Bank's Data",
+            "id": 1
+        }
+    ],
+    "datasource_id": 1,
+    "datasource_name_text": "public.wb_health_population",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=1",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/3",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "country_fieldtype": "cca3",
+        "datasource": "1__table",
+        "entity": "country_code",
+        "granularity_sqla": "year",
+        "groupby": [
+            "country_name"
+        ],
+        "limit": "25",
+        "markup_type": "markdown",
+        "metrics": [
+            "sum__SP_POP_TOTL"
+        ],
+        "num_period_compare": "10",
+        "row_limit": 50000,
+        "show_bubbles": true,
+        "slice_id": 3,
+        "time_range": "1960-01-01 : 2014-01-02",
+        "viz_type": "line"
+    },
+    "id": 3,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"country_fieldtype\": \"cca3\",\n    \"entity\": \"country_code\",\n    \"granularity_sqla\": \"year\",\n    \"groupby\": [\n        \"country_name\"\n    ],\n    \"limit\": \"25\",\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        \"sum__SP_POP_TOTL\"\n    ],\n    \"num_period_compare\": \"10\",\n    \"row_limit\": 50000,\n    \"show_bubbles\": true,\n    \"since\": \"1960-01-01\",\n    \"time_range\": \"2014-01-01 : 2014-01-02\",\n    \"until\": \"2014-01-02\",\n    \"viz_type\": \"line\"\n}",
+    "slice_name": "Growth Rate",
+    "slice_url": "/explore/?slice_id=3&form_data=%7B%22slice_id%22%3A%203%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "wb_health_population"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/3/thumbnail/8eac91d5762c59fdacec7a0b220f46a7/",
+    "url": "/explore/?slice_id=3",
+    "viz_type": "line"
+}

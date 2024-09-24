@@ -1,0 +1,65 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167741117.4531,
+    "changed_on_utc": "2024-09-24T08:49:01.117453+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Misc Charts",
+            "id": 3
+        }
+    ],
+    "datasource_id": 1,
+    "datasource_name_text": "public.wb_health_population",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=1",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/10",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "country_fieldtype": "cca3",
+        "datasource": "1__table",
+        "entity": "country_code",
+        "granularity_sqla": "year",
+        "groupby": [],
+        "limit": 100,
+        "markup_type": "markdown",
+        "metrics": [
+            "sum__SP_POP_TOTL",
+            "sum__SP_RUR_TOTL_ZS",
+            "sum__SH_DYN_AIDS"
+        ],
+        "row_limit": 50000,
+        "secondary_metric": "sum__SP_POP_TOTL",
+        "series": "country_name",
+        "show_bubbles": true,
+        "slice_id": 10,
+        "time_range": "2011-01-01 : 2012-01-01",
+        "viz_type": "para"
+    },
+    "id": 10,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"country_fieldtype\": \"cca3\",\n    \"entity\": \"country_code\",\n    \"granularity_sqla\": \"year\",\n    \"groupby\": [],\n    \"limit\": 100,\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        \"sum__SP_POP_TOTL\",\n        \"sum__SP_RUR_TOTL_ZS\",\n        \"sum__SH_DYN_AIDS\"\n    ],\n    \"row_limit\": 50000,\n    \"secondary_metric\": \"sum__SP_POP_TOTL\",\n    \"series\": \"country_name\",\n    \"show_bubbles\": true,\n    \"since\": \"2011-01-01\",\n    \"time_range\": \"2014-01-01 : 2014-01-02\",\n    \"until\": \"2012-01-01\",\n    \"viz_type\": \"para\"\n}",
+    "slice_name": "Parallel Coordinates",
+    "slice_url": "/explore/?slice_id=10&form_data=%7B%22slice_id%22%3A%2010%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "wb_health_population"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/10/thumbnail/821254779e462656ba0cd08e3ec039b6/",
+    "url": "/explore/?slice_id=10",
+    "viz_type": "para"
+}

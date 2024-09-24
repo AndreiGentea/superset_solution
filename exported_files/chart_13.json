@@ -1,0 +1,71 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167754135.63,
+    "changed_on_utc": "2024-09-24T08:49:14.135630+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "USA Births Names",
+            "id": 2
+        }
+    ],
+    "datasource_id": 2,
+    "datasource_name_text": "public.birth_names",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=2",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/13",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "datasource": "2__table",
+        "granularity_sqla": "ds",
+        "groupby": [
+            "name"
+        ],
+        "limit": "25",
+        "markup_type": "markdown",
+        "metrics": [
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "num",
+                    "type": "BIGINT"
+                },
+                "expressionType": "SIMPLE",
+                "label": "Births",
+                "optionName": "metric_11"
+            }
+        ],
+        "rich_tooltip": true,
+        "row_limit": 50000,
+        "show_legend": true,
+        "slice_id": 13,
+        "time_range": "100 years ago : now",
+        "viz_type": "line"
+    },
+    "id": 13,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"granularity_sqla\": \"ds\",\n    \"groupby\": [\n        \"name\"\n    ],\n    \"limit\": \"25\",\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        {\n            \"aggregate\": \"SUM\",\n            \"column\": {\n                \"column_name\": \"num\",\n                \"type\": \"BIGINT\"\n            },\n            \"expressionType\": \"SIMPLE\",\n            \"label\": \"Births\",\n            \"optionName\": \"metric_11\"\n        }\n    ],\n    \"rich_tooltip\": true,\n    \"row_limit\": 50000,\n    \"show_legend\": true,\n    \"time_range\": \"100 years ago : now\",\n    \"viz_type\": \"line\"\n}",
+    "slice_name": "Trends",
+    "slice_url": "/explore/?slice_id=13&form_data=%7B%22slice_id%22%3A%2013%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "birth_names"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/13/thumbnail/76192e58483d7b91b774461464b035de/",
+    "url": "/explore/?slice_id=13",
+    "viz_type": "line"
+}

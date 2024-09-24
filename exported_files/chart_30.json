@@ -1,0 +1,56 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167770173.3242,
+    "changed_on_utc": "2024-09-24T08:49:30.173324+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Misc Charts",
+            "id": 3
+        }
+    ],
+    "datasource_id": 3,
+    "datasource_name_text": "public.long_lat",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=3",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/30",
+    "form_data": {
+        "all_columns": [
+            "occupancy"
+        ],
+        "all_columns_x": "LON",
+        "all_columns_y": "LAT",
+        "datasource": "3__table",
+        "granularity_sqla": "day",
+        "mapbox_style": "mapbox://styles/mapbox/light-v9",
+        "row_limit": 500000,
+        "slice_id": 30,
+        "time_range": "2014-01-01 : now",
+        "viz_type": "mapbox"
+    },
+    "id": 30,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"all_columns\": [\n        \"occupancy\"\n    ],\n    \"all_columns_x\": \"LON\",\n    \"all_columns_y\": \"LAT\",\n    \"granularity_sqla\": \"day\",\n    \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\",\n    \"row_limit\": 500000,\n    \"since\": \"2014-01-01\",\n    \"until\": \"now\",\n    \"viz_type\": \"mapbox\"\n}",
+    "slice_name": "Mapbox Long/Lat",
+    "slice_url": "/explore/?slice_id=30&form_data=%7B%22slice_id%22%3A%2030%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "long_lat"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/30/thumbnail/59b4879430a20f827ecd170955d1869f/",
+    "url": "/explore/?slice_id=30",
+    "viz_type": "mapbox"
+}

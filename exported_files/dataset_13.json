@@ -1,0 +1,21 @@
+{
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_utc": "2024-09-24T08:49:44.541299+0000",
+    "database": {
+        "database_name": "examples",
+        "id": 1
+    },
+    "datasource_type": "table",
+    "default_endpoint": null,
+    "description": null,
+    "explore_url": "/explore/?datasource_type=table&datasource_id=13",
+    "extra": null,
+    "id": 13,
+    "kind": "physical",
+    "owners": [],
+    "schema": "public",
+    "sql": null,
+    "table_name": "channels"
+}

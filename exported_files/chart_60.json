@@ -1,0 +1,71 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851516.492,
+    "changed_on_utc": "2024-09-24T08:50:51.516492+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "COVID Vaccine Dashboard",
+            "id": 6
+        }
+    ],
+    "datasource_id": 8,
+    "datasource_name_text": "public.covid_vaccines",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=8",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/60",
+    "form_data": {
+        "adhoc_filters": [],
+        "all_columns_x": "clinical_stage",
+        "all_columns_y": "country_name",
+        "annotation_layers": [],
+        "bottom_margin": "auto",
+        "canvas_image_rendering": "pixelated",
+        "datasource": "8__table",
+        "left_margin": "auto",
+        "linear_color_scheme": "schemeYlOrBr",
+        "metric": "count",
+        "normalize_across": "heatmap",
+        "row_limit": 10000,
+        "show_legend": true,
+        "show_perc": true,
+        "slice_id": 60,
+        "sort_x_axis": "alpha_asc",
+        "sort_y_axis": "alpha_asc",
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "heatmap",
+        "xscale_interval": null,
+        "y_axis_bounds": [
+            null,
+            null
+        ],
+        "y_axis_format": "SMART_NUMBER",
+        "yscale_interval": null
+    },
+    "id": 60,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"clinical_stage\", \"all_columns_y\": \"country_name\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"14__table\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"schemeYlOrBr\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"row_limit\": 10000, \"show_legend\": true, \"show_perc\": true, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"annotation_layers\": []}",
+    "slice_name": "Vaccine Candidates per Country & Stage",
+    "slice_url": "/explore/?slice_id=60&form_data=%7B%22slice_id%22%3A%2060%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "covid_vaccines"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/60/thumbnail/09ead0c62c522c0d85ae55864d99119e/",
+    "url": "/explore/?slice_id=60",
+    "viz_type": "heatmap"
+}

@@ -1,0 +1,21 @@
+{
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_utc": "2024-09-24T08:50:47.978757+0000",
+    "database": {
+        "database_name": "examples",
+        "id": 1
+    },
+    "datasource_type": "table",
+    "default_endpoint": null,
+    "description": null,
+    "explore_url": "/explore/?datasource_type=table&datasource_id=22",
+    "extra": null,
+    "id": 22,
+    "kind": "virtual",
+    "owners": [],
+    "schema": "public",
+    "sql": "SELECT m.ts, c.name, m.text FROM messages m JOIN channels c ON m.channel_id = c.id",
+    "table_name": "messages_channels"
+}

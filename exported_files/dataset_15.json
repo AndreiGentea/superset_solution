@@ -1,0 +1,21 @@
+{
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_utc": "2024-09-24T08:49:48.299349+0000",
+    "database": {
+        "database_name": "examples",
+        "id": 1
+    },
+    "datasource_type": "table",
+    "default_endpoint": null,
+    "description": null,
+    "explore_url": "/explore/?datasource_type=table&datasource_id=15",
+    "extra": null,
+    "id": 15,
+    "kind": "virtual",
+    "owners": [],
+    "schema": "public",
+    "sql": "SELECT c.name AS channel_name, u.name AS member_name FROM channel_members cm JOIN channels c ON cm.channel_id = c.id JOIN users u ON cm.user_id = u.id",
+    "table_name": "members_channels_2"
+}

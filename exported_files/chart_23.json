@@ -1,0 +1,62 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167754226.428,
+    "changed_on_utc": "2024-09-24T08:49:14.226428+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [],
+    "datasource_id": 2,
+    "datasource_name_text": "public.birth_names",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=2",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/23",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "datasource": "2__table",
+        "granularity_sqla": "ds",
+        "groupby": [],
+        "limit": "25",
+        "markup_type": "markdown",
+        "metrics": [
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "num",
+                    "type": "BIGINT"
+                },
+                "expressionType": "SIMPLE",
+                "label": "Births",
+                "optionName": "metric_11"
+            }
+        ],
+        "row_limit": 50000,
+        "slice_id": 23,
+        "time_range": "100 years ago : now",
+        "viz_type": "line"
+    },
+    "id": 23,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"granularity_sqla\": \"ds\",\n    \"groupby\": [],\n    \"limit\": \"25\",\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        {\n            \"aggregate\": \"SUM\",\n            \"column\": {\n                \"column_name\": \"num\",\n                \"type\": \"BIGINT\"\n            },\n            \"expressionType\": \"SIMPLE\",\n            \"label\": \"Births\",\n            \"optionName\": \"metric_11\"\n        }\n    ],\n    \"row_limit\": 50000,\n    \"time_range\": \"100 years ago : now\",\n    \"viz_type\": \"line\"\n}",
+    "slice_name": "Num Births Trend",
+    "slice_url": "/explore/?slice_id=23&form_data=%7B%22slice_id%22%3A%2023%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "birth_names"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/23/thumbnail/5938d6bea36cee6e2af5a713d2acc00a/",
+    "url": "/explore/?slice_id=23",
+    "viz_type": "line"
+}

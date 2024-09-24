@@ -1,0 +1,72 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851609.163,
+    "changed_on_utc": "2024-09-24T08:50:51.609163+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Slack Dashboard",
+            "id": 9
+        }
+    ],
+    "datasource_id": 18,
+    "datasource_name_text": "public.threads",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=18",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/81",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "color_picker": {
+            "a": 1,
+            "b": 135,
+            "g": 122,
+            "r": 0
+        },
+        "compare_lag": 1,
+        "compare_suffix": "WoW",
+        "datasource": "18__table",
+        "granularity_sqla": "ts",
+        "header_font_size": 0.4,
+        "metric": "count",
+        "queryFields": {
+            "metric": "metrics"
+        },
+        "rolling_type": "None",
+        "show_trend_line": true,
+        "slice_id": 81,
+        "start_y_axis_at_zero": true,
+        "subheader_font_size": 0.15,
+        "time_grain_sqla": "P1W",
+        "time_range": "2020-08-05T00:00:00 : 2020-09-06T00:00:00",
+        "time_range_fixed": false,
+        "url_params": {},
+        "viz_type": "big_number",
+        "y_axis_format": "SMART_NUMBER"
+    },
+    "id": 81,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 1, \"compare_suffix\": \"WoW\", \"datasource\": \"35__table\", \"granularity_sqla\": \"ts\", \"header_font_size\": 0.4, \"metric\": \"count\", \"queryFields\": {\"metric\": \"metrics\"}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1W\", \"time_range\": \"2020-08-05T00:00:00 : 2020-09-06T00:00:00\", \"time_range_fixed\": false, \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"annotation_layers\": []}",
+    "slice_name": "Weekly Threads",
+    "slice_url": "/explore/?slice_id=81&form_data=%7B%22slice_id%22%3A%2081%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "threads"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/81/thumbnail/a9a06ef117b47e571edc0c1c9831c8d6/",
+    "url": "/explore/?slice_id=81",
+    "viz_type": "big_number"
+}

@@ -1,0 +1,80 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851671.774,
+    "changed_on_utc": "2024-09-24T08:50:51.671774+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Sales Dashboard",
+            "id": 7
+        }
+    ],
+    "datasource_id": 12,
+    "datasource_name_text": "public.cleaned_sales_data",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=12",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/95",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "datasource": "12__table",
+        "granularity_sqla": "order_date",
+        "header_font_size": 0.4,
+        "metric": {
+            "aggregate": "SUM",
+            "column": {
+                "column_name": "quantity_ordered",
+                "description": null,
+                "expression": null,
+                "filterable": true,
+                "groupby": true,
+                "id": 914,
+                "is_dttm": false,
+                "python_date_format": null,
+                "type": "BIGINT",
+                "verbose_name": null
+            },
+            "expressionType": "SIMPLE",
+            "hasCustomLabel": false,
+            "isNew": false,
+            "label": "SUM(Sales)",
+            "optionName": "metric_twq59hf4ej_g70qjfmehsq",
+            "sqlExpression": null
+        },
+        "queryFields": {
+            "metric": "metrics"
+        },
+        "slice_id": 95,
+        "subheader": "",
+        "subheader_font_size": 0.15,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "big_number_total",
+        "y_axis_format": "SMART_NUMBER"
+    },
+    "id": 95,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"quantity_ordered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 914, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(Sales)\", \"optionName\": \"metric_twq59hf4ej_g70qjfmehsq\", \"sqlExpression\": null}, \"queryFields\": {\"metric\": \"metrics\"}, \"subheader\": \"\", \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"annotation_layers\": []}",
+    "slice_name": "Total Items Sold",
+    "slice_url": "/explore/?slice_id=95&form_data=%7B%22slice_id%22%3A%2095%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "cleaned_sales_data"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/95/thumbnail/fddfea041617a6556ce03674452942b3/",
+    "url": "/explore/?slice_id=95",
+    "viz_type": "big_number_total"
+}

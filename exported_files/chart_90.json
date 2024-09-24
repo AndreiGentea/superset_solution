@@ -1,0 +1,82 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851650.301,
+    "changed_on_utc": "2024-09-24T08:50:51.650301+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "FCC New Coder Survey 2018",
+            "id": 10
+        }
+    ],
+    "datasource_id": 21,
+    "datasource_name_text": "public.FCC 2018 Survey",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=21",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/90",
+    "form_data": {
+        "adhoc_filters": [
+            {
+                "clause": "WHERE",
+                "comparator": "0",
+                "expressionType": "SIMPLE",
+                "filterOptionName": "filter_qzz67uip1ue_jw3rr6tzo3a",
+                "isExtra": false,
+                "isNew": false,
+                "operator": "==",
+                "sqlExpression": null,
+                "subject": "is_software_dev"
+            }
+        ],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "datasource": "21__table",
+        "donut": true,
+        "granularity_sqla": "time_start",
+        "groupby": [
+            "job_location_preference"
+        ],
+        "innerRadius": 44,
+        "label_type": "key",
+        "labels_outside": true,
+        "metric": "count",
+        "number_format": "SMART_NUMBER",
+        "outerRadius": 69,
+        "queryFields": {
+            "groupby": "groupby",
+            "metric": "metrics"
+        },
+        "row_limit": null,
+        "show_labels": true,
+        "show_legend": false,
+        "slice_id": 90,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "pie"
+    },
+    "id": 90,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"0\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_qzz67uip1ue_jw3rr6tzo3a\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"is_software_dev\"}], \"color_scheme\": \"supersetColors\", \"datasource\": \"42__table\", \"donut\": true, \"granularity_sqla\": \"time_start\", \"groupby\": [\"job_location_preference\"], \"innerRadius\": 44, \"labels_outside\": true, \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 69, \"label_type\": \"key\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": null, \"show_labels\": true, \"show_legend\": false, \"slice_id\": 1370, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"pie\", \"annotation_layers\": []}",
+    "slice_name": "Work Location Preference",
+    "slice_url": "/explore/?slice_id=90&form_data=%7B%22slice_id%22%3A%2090%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "FCC 2018 Survey"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/90/thumbnail/e602fa99eb5da056844e5ab161b13e62/",
+    "url": "/explore/?slice_id=90",
+    "viz_type": "pie"
+}

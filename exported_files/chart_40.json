@@ -1,0 +1,64 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851429.046,
+    "changed_on_utc": "2024-09-24T08:50:51.429046+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "COVID Vaccine Dashboard",
+            "id": 6
+        }
+    ],
+    "datasource_id": 8,
+    "datasource_name_text": "public.covid_vaccines",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=8",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/40",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "columns": [
+            "product_category",
+            "clinical_stage"
+        ],
+        "datasource": "8__table",
+        "linear_color_scheme": "schemeYlOrBr",
+        "metric": "count",
+        "queryFields": {
+            "groupby": "groupby",
+            "metric": "metrics",
+            "secondary_metric": "metrics"
+        },
+        "row_limit": 10000,
+        "slice_id": 40,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "sunburst_v2"
+    },
+    "id": 40,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"69__table\", \"columns\": [\"product_category\", \"clinical_stage\"], \"linear_color_scheme\": \"schemeYlOrBr\", \"metric\": \"count\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\", \"secondary_metric\": \"metrics\"}, \"row_limit\": 10000, \"slice_id\": 3964, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"sunburst_v2\", \"annotation_layers\": []}",
+    "slice_name": "Vaccine Candidates per Country & Stage",
+    "slice_url": "/explore/?slice_id=40&form_data=%7B%22slice_id%22%3A%2040%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "covid_vaccines"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/40/thumbnail/f95b5c4f002ba05103d819a21a055aac/",
+    "url": "/explore/?slice_id=40",
+    "viz_type": "sunburst_v2"
+}

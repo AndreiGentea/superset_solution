@@ -1,0 +1,128 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167781293.5022,
+    "changed_on_utc": "2024-09-24T08:49:41.293502+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "deck.gl Demo",
+            "id": 4
+        }
+    ],
+    "datasource_id": 5,
+    "datasource_name_text": "public.sf_population_polygons",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=5",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/36",
+    "form_data": {
+        "datasource": "5__table",
+        "extruded": true,
+        "fill_color_picker": {
+            "a": 1,
+            "b": 73,
+            "g": 65,
+            "r": 3
+        },
+        "filled": true,
+        "granularity_sqla": null,
+        "js_columns": [],
+        "js_data_mutator": "",
+        "js_onclick_href": "",
+        "js_tooltip": "",
+        "legend_format": ".1s",
+        "legend_position": "tr",
+        "line_column": "contour",
+        "line_type": "json",
+        "line_width": 10,
+        "line_width_unit": "meters",
+        "linear_color_scheme": "oranges",
+        "mapbox_style": "mapbox://styles/mapbox/light-v9",
+        "metric": {
+            "aggregate": "SUM",
+            "column": {
+                "column_name": "population",
+                "description": null,
+                "expression": null,
+                "filterable": true,
+                "groupby": true,
+                "id": 1332,
+                "is_dttm": false,
+                "optionName": "_col_population",
+                "python_date_format": null,
+                "type": "BIGINT",
+                "verbose_name": null
+            },
+            "expressionType": "SIMPLE",
+            "hasCustomLabel": true,
+            "label": "Population",
+            "optionName": "metric_t2v4qbfiz1_w6qgpx4h2p",
+            "sqlExpression": null
+        },
+        "multiplier": 0.1,
+        "point_radius_fixed": {
+            "type": "metric",
+            "value": {
+                "aggregate": null,
+                "column": null,
+                "expressionType": "SQL",
+                "hasCustomLabel": null,
+                "label": "Density",
+                "optionName": "metric_c5rvwrzoo86_293h6yrv2ic",
+                "sqlExpression": "SUM(population)/SUM(area)"
+            }
+        },
+        "reverse_long_lat": false,
+        "slice_id": 36,
+        "stroke_color_picker": {
+            "a": 1,
+            "b": 135,
+            "g": 122,
+            "r": 0
+        },
+        "stroked": false,
+        "time_grain_sqla": null,
+        "time_range": " : ",
+        "viewport": {
+            "altitude": 1.5,
+            "bearing": 37.89506450385642,
+            "height": 906,
+            "latitude": 37.752020331384834,
+            "longitude": -122.43388541747726,
+            "maxLatitude": 85.05113,
+            "maxPitch": 60,
+            "maxZoom": 20,
+            "minLatitude": -85.05113,
+            "minPitch": 0,
+            "minZoom": 0,
+            "pitch": 60,
+            "width": 667,
+            "zoom": 11.133995608594631
+        },
+        "viz_type": "deck_polygon"
+    },
+    "id": 36,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"datasource\": \"11__table\",\n    \"extruded\": true,\n    \"fill_color_picker\": {\n        \"a\": 1,\n        \"b\": 73,\n        \"g\": 65,\n        \"r\": 3\n    },\n    \"filled\": true,\n    \"granularity_sqla\": null,\n    \"js_columns\": [],\n    \"js_data_mutator\": \"\",\n    \"js_onclick_href\": \"\",\n    \"js_tooltip\": \"\",\n    \"legend_format\": \".1s\",\n    \"legend_position\": \"tr\",\n    \"line_column\": \"contour\",\n    \"line_type\": \"json\",\n    \"line_width\": 10,\n    \"line_width_unit\": \"meters\",\n    \"linear_color_scheme\": \"oranges\",\n    \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\",\n    \"metric\": {\n        \"aggregate\": \"SUM\",\n        \"column\": {\n            \"column_name\": \"population\",\n            \"description\": null,\n            \"expression\": null,\n            \"filterable\": true,\n            \"groupby\": true,\n            \"id\": 1332,\n            \"is_dttm\": false,\n            \"optionName\": \"_col_population\",\n            \"python_date_format\": null,\n            \"type\": \"BIGINT\",\n            \"verbose_name\": null\n        },\n        \"expressionType\": \"SIMPLE\",\n        \"hasCustomLabel\": true,\n        \"label\": \"Population\",\n        \"optionName\": \"metric_t2v4qbfiz1_w6qgpx4h2p\",\n        \"sqlExpression\": null\n    },\n    \"multiplier\": 0.1,\n    \"point_radius_fixed\": {\n        \"type\": \"metric\",\n        \"value\": {\n            \"aggregate\": null,\n            \"column\": null,\n            \"expressionType\": \"SQL\",\n            \"hasCustomLabel\": null,\n            \"label\": \"Density\",\n            \"optionName\": \"metric_c5rvwrzoo86_293h6yrv2ic\",\n            \"sqlExpression\": \"SUM(population)/SUM(area)\"\n        }\n    },\n    \"reverse_long_lat\": false,\n    \"slice_id\": 41,\n    \"stroke_color_picker\": {\n        \"a\": 1,\n        \"b\": 135,\n        \"g\": 122,\n        \"r\": 0\n    },\n    \"stroked\": false,\n    \"time_grain_sqla\": null,\n    \"time_range\": \" : \",\n    \"viewport\": {\n        \"altitude\": 1.5,\n        \"bearing\": 37.89506450385642,\n        \"height\": 906,\n        \"latitude\": 37.752020331384834,\n        \"longitude\": -122.43388541747726,\n        \"maxLatitude\": 85.05113,\n        \"maxPitch\": 60,\n        \"maxZoom\": 20,\n        \"minLatitude\": -85.05113,\n        \"minPitch\": 0,\n        \"minZoom\": 0,\n        \"pitch\": 60,\n        \"width\": 667,\n        \"zoom\": 11.133995608594631\n    },\n    \"viz_type\": \"deck_polygon\"\n}",
+    "slice_name": "Deck.gl Polygons",
+    "slice_url": "/explore/?slice_id=36&form_data=%7B%22slice_id%22%3A%2036%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "sf_population_polygons"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/36/thumbnail/1458da239c2892ecaa84b08cb87ec7f8/",
+    "url": "/explore/?slice_id=36",
+    "viz_type": "deck_polygon"
+}

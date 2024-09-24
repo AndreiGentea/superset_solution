@@ -1,0 +1,81 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167781287.688,
+    "changed_on_utc": "2024-09-24T08:49:41.287688+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "deck.gl Demo",
+            "id": 4
+        }
+    ],
+    "datasource_id": 3,
+    "datasource_name_text": "public.long_lat",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=3",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/35",
+    "form_data": {
+        "autozoom": false,
+        "color_picker": {
+            "a": 1,
+            "b": 0,
+            "g": 255,
+            "r": 14
+        },
+        "datasource": "3__table",
+        "extruded": true,
+        "granularity_sqla": null,
+        "grid_size": 120,
+        "groupby": [],
+        "mapbox_style": "mapbox://styles/mapbox/satellite-streets-v9",
+        "point_radius": "Auto",
+        "point_radius_fixed": {
+            "type": "fix",
+            "value": 2000
+        },
+        "point_radius_unit": "Pixels",
+        "row_limit": 5000,
+        "size": "count",
+        "slice_id": 35,
+        "spatial": {
+            "latCol": "LAT",
+            "lonCol": "LON",
+            "type": "latlong"
+        },
+        "time_grain_sqla": null,
+        "time_range": "No filter",
+        "viewport": {
+            "bearing": 155.80099696026355,
+            "latitude": 37.7942314882596,
+            "longitude": -122.42066918995666,
+            "pitch": 53.470800300695146,
+            "zoom": 12.699690845482069
+        },
+        "viz_type": "deck_grid"
+    },
+    "id": 35,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"autozoom\": false,\n    \"color_picker\": {\n        \"a\": 1,\n        \"b\": 0,\n        \"g\": 255,\n        \"r\": 14\n    },\n    \"datasource\": \"5__table\",\n    \"extruded\": true,\n    \"granularity_sqla\": null,\n    \"grid_size\": 120,\n    \"groupby\": [],\n    \"mapbox_style\": \"mapbox://styles/mapbox/satellite-streets-v9\",\n    \"point_radius\": \"Auto\",\n    \"point_radius_fixed\": {\n        \"type\": \"fix\",\n        \"value\": 2000\n    },\n    \"point_radius_unit\": \"Pixels\",\n    \"row_limit\": 5000,\n    \"size\": \"count\",\n    \"spatial\": {\n        \"latCol\": \"LAT\",\n        \"lonCol\": \"LON\",\n        \"type\": \"latlong\"\n    },\n    \"time_grain_sqla\": null,\n    \"time_range\": \"No filter\",\n    \"viewport\": {\n        \"bearing\": 155.80099696026355,\n        \"latitude\": 37.7942314882596,\n        \"longitude\": -122.42066918995666,\n        \"pitch\": 53.470800300695146,\n        \"zoom\": 12.699690845482069\n    },\n    \"viz_type\": \"deck_grid\"\n}",
+    "slice_name": "Deck.gl Grid",
+    "slice_url": "/explore/?slice_id=35&form_data=%7B%22slice_id%22%3A%2035%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "long_lat"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/35/thumbnail/52f55ddc7f2d34b7ba42da67339758b6/",
+    "url": "/explore/?slice_id=35",
+    "viz_type": "deck_grid"
+}

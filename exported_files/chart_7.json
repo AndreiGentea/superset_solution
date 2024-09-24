@@ -1,0 +1,63 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167741099.8062,
+    "changed_on_utc": "2024-09-24T08:49:01.099806+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "World Bank's Data",
+            "id": 1
+        }
+    ],
+    "datasource_id": 1,
+    "datasource_name_text": "public.wb_health_population",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=1",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/7",
+    "form_data": {
+        "compare_lag": "10",
+        "compare_suffix": "o10Y",
+        "country_fieldtype": "cca3",
+        "datasource": "1__table",
+        "entity": "country_code",
+        "granularity_sqla": "year",
+        "groupby": [
+            "region"
+        ],
+        "limit": "25",
+        "markup_type": "markdown",
+        "metrics": [
+            "sum__SP_POP_TOTL"
+        ],
+        "row_limit": 50000,
+        "show_bubbles": true,
+        "slice_id": 7,
+        "time_range": "1960-01-01 : now",
+        "viz_type": "area"
+    },
+    "id": 7,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"compare_lag\": \"10\",\n    \"compare_suffix\": \"o10Y\",\n    \"country_fieldtype\": \"cca3\",\n    \"entity\": \"country_code\",\n    \"granularity_sqla\": \"year\",\n    \"groupby\": [\n        \"region\"\n    ],\n    \"limit\": \"25\",\n    \"markup_type\": \"markdown\",\n    \"metrics\": [\n        \"sum__SP_POP_TOTL\"\n    ],\n    \"row_limit\": 50000,\n    \"show_bubbles\": true,\n    \"since\": \"1960-01-01\",\n    \"time_range\": \"2014-01-01 : 2014-01-02\",\n    \"until\": \"now\",\n    \"viz_type\": \"area\"\n}",
+    "slice_name": "World's Pop Growth",
+    "slice_url": "/explore/?slice_id=7&form_data=%7B%22slice_id%22%3A%207%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "wb_health_population"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/7/thumbnail/8b2561d4663f6c7d75b31cb6b7b576e6/",
+    "url": "/explore/?slice_id=7",
+    "viz_type": "area"
+}

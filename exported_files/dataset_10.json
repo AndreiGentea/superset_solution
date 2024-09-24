@@ -1,0 +1,21 @@
+{
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_utc": "2024-09-24T08:49:42.948042+0000",
+    "database": {
+        "database_name": "examples",
+        "id": 1
+    },
+    "datasource_type": "table",
+    "default_endpoint": null,
+    "description": null,
+    "explore_url": "/explore/?datasource_type=table&datasource_id=10",
+    "extra": null,
+    "id": 10,
+    "kind": "virtual",
+    "owners": [],
+    "schema": "public",
+    "sql": "SELECT date, total_membership - lag(total_membership) OVER (ORDER BY date) AS new_members FROM exported_stats",
+    "table_name": "new_members_daily"
+}

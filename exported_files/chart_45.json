@@ -1,0 +1,143 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851450.277,
+    "changed_on_utc": "2024-09-24T08:50:51.450277+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Slack Dashboard",
+            "id": 9
+        }
+    ],
+    "datasource_id": 22,
+    "datasource_name_text": "public.messages_channels",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=22",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/45",
+    "form_data": {
+        "adhoc_filters": [
+            {
+                "clause": "WHERE",
+                "comparator": "github-notifications",
+                "expressionType": "SIMPLE",
+                "filterOptionName": "filter_7ud3u2eujnw_1pmeehxvw0b",
+                "isExtra": false,
+                "isNew": false,
+                "operator": "!=",
+                "sqlExpression": null,
+                "subject": "name"
+            },
+            {
+                "clause": "WHERE",
+                "comparator": "No filter",
+                "expressionType": "SIMPLE",
+                "operator": "TEMPORAL_RANGE",
+                "subject": "ts"
+            }
+        ],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "comparison_type": "values",
+        "contributionMode": null,
+        "datasource": "22__table",
+        "groupby": [
+            "name"
+        ],
+        "label_colors": {
+            "0": "#1FA8C9",
+            "1": "#454E7C",
+            "announcements": "#A868B7",
+            "apache-releases": "#666666",
+            "beginners": "#666666",
+            "commits": "#E04355",
+            "community-feedback": "#EFA1AA",
+            "contributing": "#8FD3E4",
+            "cypress-tests": "#FDE380",
+            "dashboard-filters": "#FCC700",
+            "dashboard-level-access": "#D1C6BC",
+            "dashboards": "#3CCCCB",
+            "design": "#1FA8C9",
+            "developers": "#9EE5E5",
+            "embedded-dashboards": "#ACE1C4",
+            "feature-requests": "#454E7C",
+            "general": "#3CCCCB",
+            "github-notifications": "#E04355",
+            "globalnav_search": "#A1A6BD",
+            "graduation": "#A1A6BD",
+            "helm-k8-deployment": "#FEC0A1",
+            "introductions": "#5AC189",
+            "jobs": "#FF7F44",
+            "localization": "#5AC189",
+            "newsletter": "#FF7F44",
+            "product_feedback": "#D3B3DA",
+            "pull-requests": "#A38F79",
+            "superset-champions": "#FCC700",
+            "superset_prod_reports": "#A868B7",
+            "superset_stage_alerts": "#A38F79",
+            "support": "#8FD3E4",
+            "visualization_plugins": "#B2B2B2"
+        },
+        "limit": 10,
+        "line_interpolation": "linear",
+        "logAxis": false,
+        "markerEnabled": false,
+        "metrics": [
+            "count"
+        ],
+        "min_periods": 0,
+        "opacity": 0.7,
+        "order_desc": true,
+        "queryFields": {
+            "groupby": "groupby",
+            "metrics": "metrics"
+        },
+        "rich_tooltip": true,
+        "rolling_periods": 14,
+        "rolling_type": "mean",
+        "row_limit": 1000,
+        "show_extra_controls": false,
+        "show_legend": true,
+        "slice_id": 45,
+        "stack": "Stream",
+        "time_grain_sqla": "P1D",
+        "truncateYAxis": true,
+        "url_params": {},
+        "viz_type": "echarts_area",
+        "xAxisLabelRotation": 0,
+        "x_axis": "ts",
+        "x_axis_showminmax": true,
+        "x_axis_time_format": "smart_date",
+        "x_axis_title_margin": "auto",
+        "y_axis_bounds": [
+            0,
+            null
+        ],
+        "y_axis_format": "SMART_NUMBER",
+        "zoomable": false
+    },
+    "id": 45,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"github-notifications\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_7ud3u2eujnw_1pmeehxvw0b\", \"isExtra\": false, \"isNew\": false, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"name\"}, {\"clause\": \"WHERE\", \"subject\": \"ts\", \"operator\": \"TEMPORAL_RANGE\", \"comparator\": \"No filter\", \"expressionType\": \"SIMPLE\"}], \"annotation_layers\": [], \"x_axis_title_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"56__table\", \"groupby\": [\"name\"], \"label_colors\": {\"0\": \"#1FA8C9\", \"1\": \"#454E7C\", \"announcements\": \"#A868B7\", \"apache-releases\": \"#666666\", \"beginners\": \"#666666\", \"commits\": \"#E04355\", \"community-feedback\": \"#EFA1AA\", \"contributing\": \"#8FD3E4\", \"cypress-tests\": \"#FDE380\", \"dashboard-filters\": \"#FCC700\", \"dashboard-level-access\": \"#D1C6BC\", \"dashboards\": \"#3CCCCB\", \"design\": \"#1FA8C9\", \"developers\": \"#9EE5E5\", \"embedded-dashboards\": \"#ACE1C4\", \"feature-requests\": \"#454E7C\", \"general\": \"#3CCCCB\", \"github-notifications\": \"#E04355\", \"globalnav_search\": \"#A1A6BD\", \"graduation\": \"#A1A6BD\", \"helm-k8-deployment\": \"#FEC0A1\", \"introductions\": \"#5AC189\", \"jobs\": \"#FF7F44\", \"localization\": \"#5AC189\", \"newsletter\": \"#FF7F44\", \"product_feedback\": \"#D3B3DA\", \"pull-requests\": \"#A38F79\", \"superset-champions\": \"#FCC700\", \"superset_prod_reports\": \"#A868B7\", \"superset_stage_alerts\": \"#A38F79\", \"support\": \"#8FD3E4\", \"visualization_plugins\": \"#B2B2B2\"}, \"limit\": 10, \"line_interpolation\": \"linear\", \"metrics\": [\"count\"], \"min_periods\": 0, \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"rich_tooltip\": true, \"rolling_periods\": 14, \"rolling_type\": \"mean\", \"row_limit\": 1000, \"show_extra_controls\": false, \"show_legend\": true, \"slice_id\": 2395, \"time_grain_sqla\": \"P1D\", \"url_params\": {}, \"viz_type\": \"echarts_area\", \"x_axis_time_format\": \"smart_date\", \"x_axis_showminmax\": true, \"xAxisLabelRotation\": 0, \"y_axis_bounds\": [0, null], \"y_axis_format\": \"SMART_NUMBER\", \"logAxis\": false, \"contributionMode\": null, \"zoomable\": false, \"markerEnabled\": false, \"truncateYAxis\": true, \"stack\": \"Stream\", \"opacity\": 0.7, \"x_axis\": \"ts\"}",
+    "slice_name": "Messages per Channel",
+    "slice_url": "/explore/?slice_id=45&form_data=%7B%22slice_id%22%3A%2045%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "messages_channels"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/45/thumbnail/091dfb04a1ffa006b1b8e9a986e4d94c/",
+    "url": "/explore/?slice_id=45",
+    "viz_type": "echarts_area"
+}

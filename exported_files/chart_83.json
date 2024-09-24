@@ -1,0 +1,87 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851619.346,
+    "changed_on_utc": "2024-09-24T08:50:51.619346+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Sales Dashboard",
+            "id": 7
+        }
+    ],
+    "datasource_id": 12,
+    "datasource_name_text": "public.cleaned_sales_data",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=12",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/83",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "datasource": "12__table",
+        "granularity_sqla": "order_date",
+        "groupby": [
+            "product_line"
+        ],
+        "horizon_color_scale": "series",
+        "metrics": [
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "sales",
+                    "description": null,
+                    "expression": null,
+                    "filterable": true,
+                    "groupby": true,
+                    "id": 917,
+                    "is_dttm": false,
+                    "optionName": "_col_Sales",
+                    "python_date_format": null,
+                    "type": "DOUBLE PRECISION",
+                    "verbose_name": null
+                },
+                "expressionType": "SIMPLE",
+                "hasCustomLabel": false,
+                "isNew": false,
+                "label": "(Sales)",
+                "optionName": "metric_e3kxby3hnjs_nfd4adbcnsn",
+                "sqlExpression": null
+            }
+        ],
+        "order_desc": true,
+        "queryFields": {
+            "groupby": "groupby",
+            "metrics": "metrics"
+        },
+        "row_limit": null,
+        "series_height": "25",
+        "slice_id": 83,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "horizon"
+    },
+    "id": 83,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"datasource\": \"23__table\", \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"horizon_color_scale\": \"series\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_e3kxby3hnjs_nfd4adbcnsn\", \"sqlExpression\": null}], \"order_desc\": true, \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"row_limit\": null, \"series_height\": \"25\", \"slice_id\": 2811, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"horizon\", \"annotation_layers\": []}",
+    "slice_name": "Seasonality of Revenue (per Product Line)",
+    "slice_url": "/explore/?slice_id=83&form_data=%7B%22slice_id%22%3A%2083%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "cleaned_sales_data"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/83/thumbnail/d8c1f9a3c7255ee18f4942c0ea753099/",
+    "url": "/explore/?slice_id=83",
+    "viz_type": "horizon"
+}

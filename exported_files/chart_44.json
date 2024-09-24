@@ -1,0 +1,172 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851445.632,
+    "changed_on_utc": "2024-09-24T08:50:51.445632+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Video Game Sales",
+            "id": 8
+        }
+    ],
+    "datasource_id": 23,
+    "datasource_name_text": "public.video_game_sales",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=23",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/44",
+    "form_data": {
+        "adhoc_filters": [
+            {
+                "clause": "WHERE",
+                "comparator": "10",
+                "expressionType": "SIMPLE",
+                "filterOptionName": "filter_juemdnqji5_d6fm8tuf4rc",
+                "isExtra": false,
+                "isNew": false,
+                "operator": "<=",
+                "sqlExpression": null,
+                "subject": "rank"
+            }
+        ],
+        "annotation_layers": [],
+        "bar_stacked": true,
+        "bottom_margin": "auto",
+        "color_scheme": "supersetColors",
+        "columns": [],
+        "contribution": true,
+        "datasource": "23__table",
+        "granularity_sqla": "year",
+        "groupby": [
+            "name"
+        ],
+        "label_colors": {},
+        "metrics": [
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "na_sales",
+                    "description": null,
+                    "expression": null,
+                    "filterable": true,
+                    "groupby": true,
+                    "id": 883,
+                    "is_dttm": false,
+                    "optionName": "_col_NA_Sales",
+                    "python_date_format": null,
+                    "type": "DOUBLE PRECISION",
+                    "verbose_name": null
+                },
+                "expressionType": "SIMPLE",
+                "hasCustomLabel": true,
+                "isNew": false,
+                "label": "North America",
+                "optionName": "metric_a943v7wg5g_0mm03hrsmpf",
+                "sqlExpression": null
+            },
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "eu_sales",
+                    "description": null,
+                    "expression": null,
+                    "filterable": true,
+                    "groupby": true,
+                    "id": 884,
+                    "is_dttm": false,
+                    "optionName": "_col_EU_Sales",
+                    "python_date_format": null,
+                    "type": "DOUBLE PRECISION",
+                    "verbose_name": null
+                },
+                "expressionType": "SIMPLE",
+                "hasCustomLabel": true,
+                "isNew": false,
+                "label": "Europe",
+                "optionName": "metric_bibau54x0rb_dwrjtqkbyso",
+                "sqlExpression": null
+            },
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "jp_sales",
+                    "description": null,
+                    "expression": null,
+                    "filterable": true,
+                    "groupby": true,
+                    "id": 885,
+                    "is_dttm": false,
+                    "optionName": "_col_JP_Sales",
+                    "python_date_format": null,
+                    "type": "DOUBLE PRECISION",
+                    "verbose_name": null
+                },
+                "expressionType": "SIMPLE",
+                "hasCustomLabel": true,
+                "isNew": false,
+                "label": "Japan",
+                "optionName": "metric_06whpr2oyhw_4l88xxu6zvd",
+                "sqlExpression": null
+            },
+            {
+                "aggregate": "SUM",
+                "column": {
+                    "column_name": "other_sales",
+                    "description": null,
+                    "expression": null,
+                    "filterable": true,
+                    "groupby": true,
+                    "id": 886,
+                    "is_dttm": false,
+                    "optionName": "_col_Other_Sales",
+                    "python_date_format": null,
+                    "type": "DOUBLE PRECISION",
+                    "verbose_name": null
+                },
+                "expressionType": "SIMPLE",
+                "hasCustomLabel": true,
+                "isNew": false,
+                "label": "Other",
+                "optionName": "metric_pcx05ioxums_ibr16zvi74",
+                "sqlExpression": null
+            }
+        ],
+        "queryFields": {
+            "columns": "groupby",
+            "groupby": "groupby",
+            "metrics": "metrics"
+        },
+        "row_limit": null,
+        "show_legend": true,
+        "slice_id": 44,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "dist_bar",
+        "x_ticks_layout": "staggered",
+        "y_axis_format": "SMART_NUMBER"
+    },
+    "id": 44,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"10\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_juemdnqji5_d6fm8tuf4rc\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<=\", \"sqlExpression\": null, \"subject\": \"rank\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"contribution\": true, \"datasource\": \"21__table\", \"granularity_sqla\": \"year\", \"groupby\": [\"name\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"na_sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 883, \"is_dttm\": false, \"optionName\": \"_col_NA_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"North America\", \"optionName\": \"metric_a943v7wg5g_0mm03hrsmpf\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"eu_sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 884, \"is_dttm\": false, \"optionName\": \"_col_EU_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Europe\", \"optionName\": \"metric_bibau54x0rb_dwrjtqkbyso\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"jp_sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 885, \"is_dttm\": false, \"optionName\": \"_col_JP_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Japan\", \"optionName\": \"metric_06whpr2oyhw_4l88xxu6zvd\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"other_sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 886, \"is_dttm\": false, \"optionName\": \"_col_Other_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Other\", \"optionName\": \"metric_pcx05ioxums_ibr16zvi74\", \"sqlExpression\": null}], \"queryFields\": {\"columns\": \"groupby\", \"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"row_limit\": null, \"show_legend\": true, \"slice_id\": 3546, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"staggered\", \"y_axis_format\": \"SMART_NUMBER\", \"annotation_layers\": []}",
+    "slice_name": "Top 10 Games: Proportion of Sales in Markets",
+    "slice_url": "/explore/?slice_id=44&form_data=%7B%22slice_id%22%3A%2044%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "video_game_sales"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/44/thumbnail/c3ac29309776f423d4efe5ac54cfcc1e/",
+    "url": "/explore/?slice_id=44",
+    "viz_type": "dist_bar"
+}

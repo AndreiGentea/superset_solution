@@ -1,0 +1,71 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851569.0962,
+    "changed_on_utc": "2024-09-24T08:50:51.569096+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "FCC New Coder Survey 2018",
+            "id": 10
+        }
+    ],
+    "datasource_id": 21,
+    "datasource_name_text": "public.FCC 2018 Survey",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=21",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/72",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "datasource": "21__table",
+        "donut": true,
+        "granularity_sqla": "time_start",
+        "groupby": [
+            "gender"
+        ],
+        "innerRadius": 44,
+        "label_line": true,
+        "label_type": "key",
+        "labels_outside": true,
+        "metric": "count",
+        "number_format": "SMART_NUMBER",
+        "outerRadius": 69,
+        "queryFields": {
+            "groupby": "groupby",
+            "metric": "metrics"
+        },
+        "row_limit": 10000,
+        "show_labels": true,
+        "show_legend": false,
+        "slice_id": 72,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "pie"
+    },
+    "id": 72,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"42__table\", \"donut\": true, \"granularity_sqla\": \"time_start\", \"groupby\": [\"gender\"], \"innerRadius\": 44, \"label_line\": true, \"labels_outside\": true, \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 69, \"label_type\": \"key\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": 10000, \"show_labels\": true, \"show_legend\": false, \"slice_id\": 1385, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"pie\", \"annotation_layers\": []}",
+    "slice_name": "Gender",
+    "slice_url": "/explore/?slice_id=72&form_data=%7B%22slice_id%22%3A%2072%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "FCC 2018 Survey"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/72/thumbnail/1e77a5bc4f2461a916991893bf2122d8/",
+    "url": "/explore/?slice_id=72",
+    "viz_type": "pie"
+}

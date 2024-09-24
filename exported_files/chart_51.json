@@ -1,0 +1,93 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851477.0989,
+    "changed_on_utc": "2024-09-24T08:50:51.477099+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Slack Dashboard",
+            "id": 9
+        }
+    ],
+    "datasource_id": 11,
+    "datasource_name_text": "public.users_channels-uzooNNtSRO",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=11",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/51",
+    "form_data": {
+        "adhoc_filters": [],
+        "all_columns_x": "channel_1",
+        "all_columns_y": "channel_2",
+        "annotation_layers": [],
+        "bottom_margin": "auto",
+        "canvas_image_rendering": "pixelated",
+        "datasource": "11__table",
+        "left_margin": "auto",
+        "linear_color_scheme": "schemeBlues",
+        "metric": {
+            "aggregate": "SUM",
+            "column": {
+                "column_name": "cnt",
+                "description": null,
+                "expression": null,
+                "filterable": true,
+                "groupby": true,
+                "id": 1777,
+                "is_dttm": false,
+                "optionName": "_col_cnt",
+                "python_date_format": null,
+                "type": "INT",
+                "verbose_name": null
+            },
+            "expressionType": "SIMPLE",
+            "hasCustomLabel": false,
+            "isNew": false,
+            "label": "SUM(cnt)",
+            "optionName": "metric_i1djbl8i2y_2vdl690dkyu",
+            "sqlExpression": null
+        },
+        "normalize_across": "heatmap",
+        "row_limit": 1000,
+        "show_legend": true,
+        "show_perc": false,
+        "show_values": true,
+        "slice_id": 51,
+        "sort_x_axis": "alpha_asc",
+        "sort_y_axis": "alpha_asc",
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "heatmap",
+        "xscale_interval": null,
+        "y_axis_bounds": [
+            null,
+            null
+        ],
+        "y_axis_format": "SMART_NUMBER",
+        "yscale_interval": null
+    },
+    "id": 51,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"channel_1\", \"all_columns_y\": \"channel_2\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"35__table\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"schemeBlues\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"cnt\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1777, \"is_dttm\": false, \"optionName\": \"_col_cnt\", \"python_date_format\": null, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(cnt)\", \"optionName\": \"metric_i1djbl8i2y_2vdl690dkyu\", \"sqlExpression\": null}, \"normalize_across\": \"heatmap\", \"row_limit\": 1000, \"show_legend\": true, \"show_perc\": false, \"show_values\": true, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"annotation_layers\": []}",
+    "slice_name": "Cross Channel Relationship heatmap",
+    "slice_url": "/explore/?slice_id=51&form_data=%7B%22slice_id%22%3A%2051%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "users_channels-uzooNNtSRO"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/51/thumbnail/67aab1b2bf257f14f408874c820e91b0/",
+    "url": "/explore/?slice_id=51",
+    "viz_type": "heatmap"
+}

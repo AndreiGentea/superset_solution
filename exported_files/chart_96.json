@@ -1,0 +1,79 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": {
+        "first_name": "Superset",
+        "id": 1,
+        "last_name": "Admin"
+    },
+    "changed_by_name": "Superset Admin",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727169528000.928,
+    "changed_on_utc": "2024-09-24T09:18:48.000928+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Slack Dashboard",
+            "id": 9
+        }
+    ],
+    "datasource_id": 17,
+    "datasource_name_text": "public.users",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=17",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/96",
+    "form_data": {
+        "adhoc_filters": [],
+        "align_pn": false,
+        "all_columns": [],
+        "annotation_layers": [],
+        "color_pn": true,
+        "datasource": "17__table",
+        "granularity_sqla": "updated",
+        "groupby": [
+            "tz"
+        ],
+        "include_search": false,
+        "metrics": [
+            "count"
+        ],
+        "order_by_cols": [],
+        "order_desc": true,
+        "page_length": 0,
+        "percent_metrics": [],
+        "queryFields": {
+            "groupby": "groupby",
+            "metrics": "metrics"
+        },
+        "query_mode": "aggregate",
+        "row_limit": 10,
+        "show_cell_bars": true,
+        "slice_id": 96,
+        "table_timestamp_format": "smart_date",
+        "time_grain_sqla": "P1D",
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "table"
+    },
+    "id": 96,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"31__table\", \"granularity_sqla\": \"updated\", \"groupby\": [\"tz\"], \"include_search\": false, \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"query_mode\": \"aggregate\", \"row_limit\": 10, \"show_cell_bars\": true, \"slice_id\": 1908, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"table\", \"annotation_layers\": []}",
+    "slice_name": "Top Timezones",
+    "slice_url": "/explore/?slice_id=96&form_data=%7B%22slice_id%22%3A%2096%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "users"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/96/thumbnail/5a10c0167494b9e42863c332eb7bcdba/",
+    "url": "/explore/?slice_id=96",
+    "viz_type": "table"
+}

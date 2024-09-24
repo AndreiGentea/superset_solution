@@ -1,0 +1,80 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167781268.956,
+    "changed_on_utc": "2024-09-24T08:49:41.268956+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "deck.gl Demo",
+            "id": 4
+        }
+    ],
+    "datasource_id": 3,
+    "datasource_name_text": "public.long_lat",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=3",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/32",
+    "form_data": {
+        "color_picker": {
+            "a": 0.82,
+            "b": 3,
+            "g": 0,
+            "r": 205
+        },
+        "datasource": "3__table",
+        "granularity_sqla": null,
+        "groupby": [],
+        "mapbox_style": "mapbox://styles/mapbox/light-v9",
+        "max_radius": 250,
+        "min_radius": 1,
+        "multiplier": 10,
+        "point_radius_fixed": {
+            "type": "metric",
+            "value": "count"
+        },
+        "point_unit": "square_m",
+        "row_limit": 5000,
+        "size": "count",
+        "slice_id": 32,
+        "spatial": {
+            "latCol": "LAT",
+            "lonCol": "LON",
+            "type": "latlong"
+        },
+        "time_grain_sqla": null,
+        "time_range": " : ",
+        "viewport": {
+            "bearing": -4.952916738791771,
+            "latitude": 37.78926922909199,
+            "longitude": -122.42613341901688,
+            "pitch": 4.750411100577438,
+            "zoom": 12.729132798697304
+        },
+        "viz_type": "deck_scatter"
+    },
+    "id": 32,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\n    \"color_picker\": {\n        \"a\": 0.82,\n        \"b\": 3,\n        \"g\": 0,\n        \"r\": 205\n    },\n    \"datasource\": \"5__table\",\n    \"granularity_sqla\": null,\n    \"groupby\": [],\n    \"mapbox_style\": \"mapbox://styles/mapbox/light-v9\",\n    \"max_radius\": 250,\n    \"min_radius\": 1,\n    \"multiplier\": 10,\n    \"point_radius_fixed\": {\n        \"type\": \"metric\",\n        \"value\": \"count\"\n    },\n    \"point_unit\": \"square_m\",\n    \"row_limit\": 5000,\n    \"size\": \"count\",\n    \"spatial\": {\n        \"latCol\": \"LAT\",\n        \"lonCol\": \"LON\",\n        \"type\": \"latlong\"\n    },\n    \"time_grain_sqla\": null,\n    \"time_range\": \" : \",\n    \"viewport\": {\n        \"bearing\": -4.952916738791771,\n        \"latitude\": 37.78926922909199,\n        \"longitude\": -122.42613341901688,\n        \"pitch\": 4.750411100577438,\n        \"zoom\": 12.729132798697304\n    },\n    \"viz_type\": \"deck_scatter\"\n}",
+    "slice_name": "Deck.gl Scatterplot",
+    "slice_url": "/explore/?slice_id=32&form_data=%7B%22slice_id%22%3A%2032%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "long_lat"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/32/thumbnail/2e2238dd775ee11580eb84f87cf63acf/",
+    "url": "/explore/?slice_id=32",
+    "viz_type": "deck_scatter"
+}

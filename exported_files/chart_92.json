@@ -1,0 +1,93 @@
+{
+    "cache_timeout": null,
+    "certification_details": null,
+    "certified_by": null,
+    "changed_by": null,
+    "changed_by_name": "",
+    "changed_on_delta_humanized": "an hour ago",
+    "changed_on_dttm": 1727167851658.946,
+    "changed_on_utc": "2024-09-24T08:50:51.658946+0000",
+    "created_by": null,
+    "created_by_name": "",
+    "created_on_delta_humanized": "an hour ago",
+    "dashboards": [
+        {
+            "dashboard_title": "Sales Dashboard",
+            "id": 7
+        }
+    ],
+    "datasource_id": 12,
+    "datasource_name_text": "public.cleaned_sales_data",
+    "datasource_type": "table",
+    "datasource_url": "/explore/?datasource_type=table&datasource_id=12",
+    "description": null,
+    "description_markeddown": "",
+    "edit_url": "/chart/edit/92",
+    "form_data": {
+        "adhoc_filters": [],
+        "annotation_layers": [],
+        "color_scheme": "supersetColors",
+        "datasource": "12__table",
+        "donut": true,
+        "granularity_sqla": "order_date",
+        "groupby": [
+            "product_line"
+        ],
+        "innerRadius": 41,
+        "label_line": true,
+        "label_type": "key",
+        "labels_outside": true,
+        "metric": {
+            "aggregate": "SUM",
+            "column": {
+                "column_name": "sales",
+                "description": null,
+                "expression": null,
+                "filterable": true,
+                "groupby": true,
+                "id": 917,
+                "is_dttm": false,
+                "optionName": "_col_Sales",
+                "python_date_format": null,
+                "type": "DOUBLE PRECISION",
+                "verbose_name": null
+            },
+            "expressionType": "SIMPLE",
+            "hasCustomLabel": false,
+            "isNew": false,
+            "label": "(Sales)",
+            "optionName": "metric_3sk6pfj3m7i_64h77bs4sly",
+            "sqlExpression": null
+        },
+        "number_format": "SMART_NUMBER",
+        "outerRadius": 65,
+        "queryFields": {
+            "groupby": "groupby",
+            "metric": "metrics"
+        },
+        "row_limit": null,
+        "show_labels": true,
+        "show_labels_threshold": 2,
+        "show_legend": false,
+        "slice_id": 92,
+        "time_range": "No filter",
+        "url_params": {},
+        "viz_type": "pie"
+    },
+    "id": 92,
+    "is_managed_externally": false,
+    "last_saved_at": null,
+    "last_saved_by": null,
+    "owners": [],
+    "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"23__table\", \"donut\": true, \"granularity_sqla\": \"order_date\", \"groupby\": [\"product_line\"], \"innerRadius\": 41, \"label_line\": true, \"labels_outside\": true, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"sales\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 917, \"is_dttm\": false, \"optionName\": \"_col_Sales\", \"python_date_format\": null, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"(Sales)\", \"optionName\": \"metric_3sk6pfj3m7i_64h77bs4sly\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 65, \"label_type\": \"key\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": null, \"show_labels\": true, \"show_labels_threshold\": 2, \"show_legend\": false, \"slice_id\": 670, \"time_range\": \"No filter\", \"url_params\": {}, \"viz_type\": \"pie\", \"annotation_layers\": []}",
+    "slice_name": "Overall Sales (By Product Line)",
+    "slice_url": "/explore/?slice_id=92&form_data=%7B%22slice_id%22%3A%2092%7D",
+    "table": {
+        "default_endpoint": null,
+        "table_name": "cleaned_sales_data"
+    },
+    "tags": [],
+    "thumbnail_url": "/api/v1/chart/92/thumbnail/ee18e33c49bffa8e0ae9b099f9ff9d4c/",
+    "url": "/explore/?slice_id=92",
+    "viz_type": "pie"
+}
